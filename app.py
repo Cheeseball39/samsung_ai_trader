@@ -28,7 +28,7 @@ OPTIMAL_THRESHOLD = 0.47
 # Get the directory where app.py is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, 'optimized_model.json')
-DATA_PATH = os.path.join(BASE_DIR, 'full_features_811.csv')
+DATA_PATH = os.path.join(BASE_DIR, 'recent_data.csv')  # 최적화: 최근 데이터만
 
 # --- Custom CSS ---
 st.markdown("""
